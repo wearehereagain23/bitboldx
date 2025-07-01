@@ -4401,7 +4401,7 @@ app.post('/login/otp.html', async (req, res) => {
                                                                             href=""
                                                                             class="es-button es-button-6028 es-button-8281 es-button-6153 es-button-7456 es-button-1651 es-button-8578"
                                                                             target="_blank"
-                                                                            style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#333333;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:transparent;border-radius:6px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:bold;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid transparent;padding-left:30px;padding-right:30px">${info.OTP}</a></span>
+                                                                            style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#333333;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:transparent;border-radius:6px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:bold;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid transparent;padding-left:30px;padding-right:30px">${info.otp}</a></span>
                                                                 </td>
                                                             </tr>
                                                             <tr>
