@@ -50,6 +50,7 @@
                     otp: OTP,
                 }
 
+
                 const options = {
                     method: 'POST',
 
@@ -61,11 +62,14 @@
 
                 const respones = await fetch('/login/otp.html', options);
 
-                respones.json().then((dd) => {
+                console.log(response.ok)
+                if (response.ok) {
                     alert(`OTP was sent to ${i}`);
                     location.replace("https://bit-bx.web.app/login/otp.html");
-                })
-
+                } else {
+                    alert(`somthing went wrong`);
+                    window.history.back();
+                }
 
             }
         }
