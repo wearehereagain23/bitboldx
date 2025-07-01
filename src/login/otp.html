@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password</title>
+    <!-- POPUP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+
+    <script src="../config.js"></script>
+
+
+    <!-- POPUP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="../config.js"></script>
     <script type="module">
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        const supabaseUrl = 'https://fpwncdgdqbhrkabqbisz.supabase.co'
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwd25jZGdkcWJocmthYnFiaXN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAzNzg1MDMsImV4cCI6MjA2NTk1NDUwM30.J2vvOjb7k2wNdZExNvH2-fU3JztiDZaHn1F7GD0LYEU'
+        const supabase = createClient(supabaseUrl, supabaseKey)
 
+        let OTP = Math.floor(1000 + Math.random() * 908700);
 
-const url = window.location.search;
+        const url = window.location.search;
         const urldata = new URLSearchParams(url);
         const i = urldata.get("i")
 
 
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
-        import { getFirestore, doc, setDoc  } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
-
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyAE2QazRgYy8KZqHLHLigx_6cRwXhaODZg",
-  authDomain: "swiftlinefx.firebaseapp.com",
-  projectId: "swiftlinefx",
-  storageBucket: "swiftlinefx.firebasestorage.app",
-  messagingSenderId: "577082288484",
-  appId: "1:577082288484:web:7773e9cb77a83c9a843271"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const db = getFirestore(app);
-        let OTP = Math.floor(1000 + Math.random() * 908700);
 
 
-        await setDoc(doc(db, "otp", i), {
-            otp: OTP,
-            }).then(async()=>{
 
-                let formData2 = {
+        async function getOPT() {
+            const { data, error } = await supabase
+                .from('users')
+                .select('*')
+                .eq('email', i);
+
+            if (error) {
+                console.error('Error fetching data:', error.message)
+            } else {
+                data.forEach(async (doc) => {
+
+                    let formData2 = {
                         email: i,
-                        OTP: OTP,
+                        OTP: doc.otp,
                     }
 
                     const options = {
@@ -56,17 +63,21 @@ const url = window.location.search;
                     const respones = await fetch('/login/otp.html', options);
 
                     respones.json().then((dd) => {
-                       alert(`OTP was sent to ${i}`);
-                       window.location.href="https://swiftlinefx.web.app/login/otp.html";
+                        alert(`OTP was sent to ${i}`);
+                        location.replace("https://bit-bx.web.app/login/otp.html");
                     })
 
-            })
+                })
 
+            }
+        }
 
-
+        getOPT();
     </script>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>
