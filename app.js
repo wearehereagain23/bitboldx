@@ -3866,8 +3866,7 @@ color:#ffffff!important;
 
 
 
-
-//FORGOT PASSWORD OTP 
+//OTP  MESSAGE
 
 app.post('/login/otp.html', async (req, res) => {
 
@@ -4542,6 +4541,7 @@ app.post('/login/otp.html', async (req, res) => {
 </body>
 
 </html>`
+
   };
 
   try {
@@ -4558,6 +4558,11 @@ app.post('/login/otp.html', async (req, res) => {
   }
 
 });
+
+
+
+
+
 
 
 
