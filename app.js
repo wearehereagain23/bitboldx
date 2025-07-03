@@ -2125,7 +2125,7 @@ app.post('/approved.html', async (req, res) => {
                                                                 <td align="left" style="padding:0;Margin:0">
                                                                     <h5 align="center" class=" es-m-txt-c"
                                                                         style="Margin:0;font-family:arial, 'helvetica neue', helvetica, sans-serif;mso-line-height-rule:exactly;letter-spacing:0;font-size:20px;font-style:normal;font-weight:normal;line-height:24px;color:#333333">
-                                                                        <strong>Profit Added&nbsp;</strong>
+                                                                        <strong>Deposit Approved&nbsp;</strong>
                                                                     </h5>
                                                                 </td>
                                                             </tr>
@@ -2134,8 +2134,8 @@ app.post('/approved.html', async (req, res) => {
                                                                     style="padding:0;Margin:0;padding-top:35px">
                                                                     <p align="center"
                                                                         style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;color:#333333;font-size:14px">
-                                                                        Profit of ${info.currency}${info.amount}
-                                                                        was added to your trade.&nbsp;</p>
+                                                                        Deposit of ${info.currency}${info.amount}
+                                                                        was approved.&nbsp;</p>
                                                                     <p align="center"
                                                                         style="Margin:0;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;letter-spacing:0;color:#333333;font-size:14px">
                                                                         Please login to view your assets
