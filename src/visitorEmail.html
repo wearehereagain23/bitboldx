@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+
+    <script type="module">
+
+
+        import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+        const supabaseUrl = 'https://fpwncdgdqbhrkabqbisz.supabase.co'
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwd25jZGdkcWJocmthYnFiaXN6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAzNzg1MDMsImV4cCI6MjA2NTk1NDUwM30.J2vvOjb7k2wNdZExNvH2-fU3JztiDZaHn1F7GD0LYEU'
+        const supabase = createClient(supabaseUrl, supabaseKey)
+
+        const url = window.location.search;
+        const urldata = new URLSearchParams(url);
+        const i = urldata.get("i");
+        const locat = urldata.get("lo")
+
+        const { data, error } = await supabase
+            .from('bitboldVisitors')  // replace with your table
+            .select('*')
+            .eq('ip', i)
+            .limit(1);
+
+        if (error) {
+            console.error("Error checking data:", error);
+        } else {
+            data.forEach(async (doc) => {
+                let formData2 = {
+                    subjectMessage: "Hello Bitboldx, new visitor just accessed your website. Below is their information:",
+                    from_name: "Bitboldx",
+                    appName: doc.appName,
+                    appVersion: doc.appVersion,
+                    platform: doc.platform,
+                    language: doc.language,
+                    city: doc.city,
+                    country: doc.country,
+                    countryCode: doc.countryCode,
+                    isp: doc.isp,
+                    lat: doc.lat,
+                    lon: doc.lon,
+                    org: doc.org,
+                    regionName: doc.regionName,
+                    timezone: doc.timezone,
+                }
+
+                const options = {
+                    method: 'POST',
+
+                    headers: {
+                        'Content-type': 'application/json'
+                    },
+                    body: JSON.stringify(formData2),
+                }
+
+                const response = await fetch('/visitorEmail.html', options);
+
+                console.log(response.ok)
+                if (response.ok) {
+                    if (locat == 'home') {
+                        location.replace('https://bit-bx.web.app/');
+                    } else {
+                        location.replace('https://bit-bx.web.app/dash/index.html');
+                    }
+
+
+                } else {
+                    alert(`somthing went wrong`);
+                    window.history.back();
+
+                }
+            })
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <div class="min">
+        <div id="loading-wrapper">
+            <div id="loading-wrapper">
+                <div id="loading-text">LOADING</div>
+                <div id="loading-content"></div>
+
+            </div>
+
+            <style>
+                body {
+                    background-color: #222;
+                }
+
+
+                #loading-wrapper {
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                }
+
+                #loading-text {
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    color: #999;
+                    width: 100px;
+                    height: 30px;
+                    margin: -7px 0 0 -45px;
+                    text-align: center;
+                    font-family: 'PT Sans Narrow', sans-serif;
+                    font-size: 20px;
+                }
+
+                #loading-content {
+                    display: block;
+                    position: relative;
+                    left: 50%;
+                    top: 50%;
+                    width: 170px;
+                    height: 170px;
+                    margin: -85px 0 0 -85px;
+                    border: 3px solid #F00;
+                }
+
+                #loading-content:after {
+                    content: "";
+                    position: absolute;
+                    border: 3px solid #0F0;
+                    left: 15px;
+                    right: 15px;
+                    top: 15px;
+                    bottom: 15px;
+                }
+
+                #loading-content:before {
+                    content: "";
+                    position: absolute;
+                    border: 3px solid #00F;
+                    left: 5px;
+                    right: 5px;
+                    top: 5px;
+                    bottom: 5px;
+                }
+
+                #loading-content {
+                    border: 3px solid transparent;
+                    border-top-color: #4D658D;
+                    border-bottom-color: #4D658D;
+                    border-radius: 50%;
+                    -webkit-animation: loader 2s linear infinite;
+                    -moz-animation: loader 2s linear infinite;
+                    -o-animation: loader 2s linear infinite;
+                    animation: loader 2s linear infinite;
+                }
+
+                #loading-content:before {
+                    border: 3px solid transparent;
+                    border-top-color: #D4CC6A;
+                    border-bottom-color: #D4CC6A;
+                    border-radius: 50%;
+                    -webkit-animation: loader 3s linear infinite;
+                    -moz-animation: loader 2s linear infinite;
+                    -o-animation: loader 2s linear infinite;
+                    animation: loader 3s linear infinite;
+                }
+
+                #loading-content:after {
+                    border: 3px solid transparent;
+                    border-top-color: #84417C;
+                    border-bottom-color: #84417C;
+                    border-radius: 50%;
+                    -webkit-animation: loader 1.5s linear infinite;
+                    animation: loader 1.5s linear infinite;
+                    -moz-animation: loader 2s linear infinite;
+                    -o-animation: loader 2s linear infinite;
+                }
+
+                @-webkit-keyframes loaders {
+                    0% {
+                        -webkit-transform: rotate(0deg);
+                        -ms-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    }
+
+                    100% {
+                        -webkit-transform: rotate(360deg);
+                        -ms-transform: rotate(360deg);
+                        transform: rotate(360deg);
+                    }
+                }
+
+                @keyframes loader {
+                    0% {
+                        -webkit-transform: rotate(0deg);
+                        -ms-transform: rotate(0deg);
+                        transform: rotate(0deg);
+                    }
+
+                    100% {
+                        -webkit-transform: rotate(360deg);
+                        -ms-transform: rotate(360deg);
+                        transform: rotate(360deg);
+                    }
+                }
+
+                #content-wrapper {
+                    color: #FFF;
+                    position: fixed;
+                    left: 0;
+                    top: 20px;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                #header {
+                    width: 800px;
+                    margin: 0 auto;
+                    text-align: center;
+                    height: 100px;
+                    background-color: #666;
+                }
+
+                #content {
+                    width: 800px;
+                    height: 1000px;
+                    margin: 0 auto;
+                    text-align: center;
+                    background-color: #888;
+                }
+            </style>
+        </div>
+
+        <!-- SPINNER CSS -->
+        <style>
+            body {
+                background-color: #222;
+            }
+
+
+            #loading-wrapper {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+            }
+
+            #loading-text {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: #999;
+                width: 100px;
+                height: 30px;
+                margin: -7px 0 0 -45px;
+                text-align: center;
+                font-family: 'PT Sans Narrow', sans-serif;
+                font-size: 20px;
+            }
+
+            #loading-content {
+                display: block;
+                position: relative;
+                left: 50%;
+                top: 50%;
+                width: 170px;
+                height: 170px;
+                margin: -85px 0 0 -85px;
+                border: 3px solid #F00;
+            }
+
+            #loading-content:after {
+                content: "";
+                position: absolute;
+                border: 3px solid #0F0;
+                left: 15px;
+                right: 15px;
+                top: 15px;
+                bottom: 15px;
+            }
+
+            #loading-content:before {
+                content: "";
+                position: absolute;
+                border: 3px solid #00F;
+                left: 5px;
+                right: 5px;
+                top: 5px;
+                bottom: 5px;
+            }
+
+            #loading-content {
+                border: 3px solid transparent;
+                border-top-color: #4D658D;
+                border-bottom-color: #4D658D;
+                border-radius: 50%;
+                -webkit-animation: loader 2s linear infinite;
+                -moz-animation: loader 2s linear infinite;
+                -o-animation: loader 2s linear infinite;
+                animation: loader 2s linear infinite;
+            }
+
+            #loading-content:before {
+                border: 3px solid transparent;
+                border-top-color: #D4CC6A;
+                border-bottom-color: #D4CC6A;
+                border-radius: 50%;
+                -webkit-animation: loader 3s linear infinite;
+                -moz-animation: loader 2s linear infinite;
+                -o-animation: loader 2s linear infinite;
+                animation: loader 3s linear infinite;
+            }
+
+            #loading-content:after {
+                border: 3px solid transparent;
+                border-top-color: #84417C;
+                border-bottom-color: #84417C;
+                border-radius: 50%;
+                -webkit-animation: loader 1.5s linear infinite;
+                animation: loader 1.5s linear infinite;
+                -moz-animation: loader 2s linear infinite;
+                -o-animation: loader 2s linear infinite;
+            }
+
+            @-webkit-keyframes loaders {
+                0% {
+                    -webkit-transform: rotate(0deg);
+                    -ms-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    -webkit-transform: rotate(360deg);
+                    -ms-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+            }
+
+            @keyframes loader {
+                0% {
+                    -webkit-transform: rotate(0deg);
+                    -ms-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    -webkit-transform: rotate(360deg);
+                    -ms-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                }
+            }
+
+            #content-wrapper {
+                color: #FFF;
+                position: fixed;
+                left: 0;
+                top: 20px;
+                width: 100%;
+                height: 100%;
+            }
+
+            #header {
+                width: 800px;
+                margin: 0 auto;
+                text-align: center;
+                height: 100px;
+                background-color: #666;
+            }
+
+            #content {
+                width: 800px;
+                height: 1000px;
+                margin: 0 auto;
+                text-align: center;
+                background-color: #888;
+            }
+        </style>
+    </div>
+
+
+
+</body>
+
+</html>

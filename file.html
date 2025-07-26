@@ -1,4 +1,29 @@
-<!DOCTYPE html
+
+//FORGOT PASSWORD OTP 
+
+app.post('/login/otp.html', async (req, res) => {
+
+
+  let info = req.body
+
+  var transporter = nodemailer.createTransport({
+    host: 'mail.assistin.online',
+    secureConnection: true,
+    port: 465,
+    service: 'SMTP',
+    auth: {
+      user: "bitboldx@assistin.online",
+      pass: "BBxbold2-x.online"
+    },
+    from: "bitboldx@assistin.online",
+  });
+
+  const mail_option = {
+    from: `Bitboldx <noreply@assistin.online>`,
+    to: info.email,
+    subject: "Welcome Message From Bitboldx",
+    html:
+      `<!DOCTYPE html
     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en">
 
@@ -508,7 +533,7 @@
                                                                             href=""
                                                                             class="es-button es-button-6028 es-button-8281 es-button-6153 es-button-7456 es-button-1651 es-button-8578"
                                                                             target="_blank"
-                                                                            style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#333333;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:transparent;border-radius:6px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:bold;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid transparent;padding-left:30px;padding-right:30px">${info.OTP}</a></span>
+                                                                            style="mso-style-priority:100 !important;text-decoration:none !important;mso-line-height-rule:exactly;color:#333333;font-size:20px;padding:10px 30px 10px 30px;display:inline-block;background:transparent;border-radius:6px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:bold;font-style:normal;line-height:24px;width:auto;text-align:center;letter-spacing:0;mso-padding-alt:0;mso-border-alt:10px solid transparent;padding-left:30px;padding-right:30px">${info.otp}</a></span>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -648,4 +673,20 @@
     </div>
 </body>
 
-</html>
+</html>`
+  };
+
+  try {
+    const info2 = await transporter.sendMail(mail_option);
+
+    console.log("Email sent: ", info2);
+
+    res.send("Email sent successfully!");
+
+
+  } catch (error) {
+    console.error("Error sending email:", error);
+    res.status(500).send("Failed to send email.");
+  }
+
+});
